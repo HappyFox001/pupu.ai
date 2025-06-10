@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Github, Sparkles, MessageCircle, ShieldCheck, DownloadCloud } from "lucide-react"
+import { Github, Sparkles, MessageCircle, ShieldCheck } from "lucide-react"
 
 function Bubble({ x, y, size, color }: { x: number; y: number; size: number; color: string }) {
   return (
